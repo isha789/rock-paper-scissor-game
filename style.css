@@ -1,21 +1,47 @@
+ body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10, 34, 77);
+ }
  button {
-    padding: 20px 30px;
-    font-size: 20px;
+    padding: 30px 40px;
+    font-size: 30px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     cursor: pointer;
     background-color: aquamarine;
   }
-  .buttons{
-    margin-top: 400px;
+  header{
+    background-color: rgb(30, 130, 160);
+    height: 80px;
+    white-space: pre-line; 
+  }
+  .heading{
+    margin-top: 1px;
     margin-left: 600px;
   }
+  .heading-Two{
+    color: aliceblue;
+  }
+  .buttons{
+    margin-top: 300px;
+    margin-left: 550px;
+  }
   .button-One{
-    background-color: aquamarine;
+    background-color: lightgrey;
   }
   .button-Two{
     background-color: goldenrod;
   }
   .button-Three{
-    background-color: palevioletred;
+    background-color: lightpink;
+  }
+  .button-One:hover {
+    background-color: gray;
+  }
+  .button-Two:hover {
+    background-color: gray;
+  }
+  .button-Three:hover {
+    background-color: gray;
   }
