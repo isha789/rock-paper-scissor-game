@@ -10,7 +10,9 @@ buttons.forEach(button => {
     playRound(this.textContent);
   });
 });
- let playerChoice = ["paper","Scissor","rock"]
+
+let playerChoice = ["paper","Scissor","rock"]
+
 function playRound(playerChoice) {
   let computerChoice = choices[Math.floor(Math.random() * 3)];
 
