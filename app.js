@@ -1,6 +1,8 @@
 const options = ['rock', 'paper', 'scissors'];
+
 let playerWins = 0;
 let computerWins = 0;
+
 for (let i = 0; i < 5; i++) {
   let playerSelection = prompt("Enter rock, paper, or scissors (or press Cancel to exit):");
   if (playerSelection === null) {
@@ -20,6 +22,7 @@ for (let i = 0; i < 5; i++) {
     break;
   }
   const computerSelection = options[Math.floor(Math.random() * options.length)];
+  
   console.log(`Round ${i + 1}:`);
   console.log(`Player: ${playerSelection}`);
   console.log(`Computer: ${computerSelection}`);
@@ -43,7 +46,9 @@ if (playerWins > computerWins) {
   console.log("You win the game!");
 } else if (playerWins < computerWins) {
   console.log("You lose the game.");
-} 
+} else {
+  console.log("The game is a tie");
+}
 
 
 
