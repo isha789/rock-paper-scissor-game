@@ -43,9 +43,7 @@ if (playerWins > computerWins) {
   console.log("You win the game!");
 } else if (playerWins < computerWins) {
   console.log("You lose the game.");
-} else {
-  console.log("The game is a tie.");
-}
+} 
 
 
 
